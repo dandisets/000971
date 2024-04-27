@@ -2,7 +2,13 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000971
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
-about: []
+about:
+- identifier: UBERON:0005382
+  name: Dorsal Striatum
+  schemaKey: Anatomy
+- identifier: http://snomed.info/id/11061003
+  name: Psychoactive substance use disorder
+  schemaKey: Disorder
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -17,17 +23,11 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Adkisson, Paul; Seiler, Jillian L.; Cosme, Caitlin V.; Sherathiya, Venus
-  N. (2024) Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
+citation: Seiler, Jillian L.; Cosme, Caitlin V.; Sherathiya, Venus N.; Schaid, Michael
+  D.; Bianco, Joseph, M.; Bridgemohan, Abigael S.; Lerner, Talia N.; Adkisson, Paul
+  (2024) Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
   (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000971/draft
 contributor:
-- affiliation: []
-  email: paul.wesley.adkisson@gmail.com
-  includeInCitation: true
-  name: Adkisson, Paul
-  roleName:
-  - dcite:ContactPerson
-  schemaKey: Person
 - email: jillian.seiler@northwestern.edu
   identifier: 0000-0003-4430-4797
   includeInCitation: true
@@ -45,6 +45,56 @@ contributor:
   identifier: 0000-0003-0143-9771
   includeInCitation: true
   name: Sherathiya, Venus N.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Schaid, Michael D.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0002-8598-0604
+  includeInCitation: true
+  name: Bianco, Joseph, M.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Bridgemohan, Abigael S.
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- email: talia.lerner@northwestern.edu
+  identifier: 0000-0002-3875-0654
+  includeInCitation: true
+  name: Lerner, Talia N.
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
+- awardNumber: R00MH109569
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.nih.gov/
+- awardNumber: R00MH109569-04S1
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.nih.gov/
+- affiliation: []
+  email: paul.wesley.adkisson@gmail.com
+  identifier: 0009-0005-8943-5450
+  includeInCitation: true
+  name: Adkisson, Paul
+  roleName:
+  - dcite:DataCurator
   schemaKey: Person
 dateCreated: '2024-04-27T01:45:05.960750+00:00'
 description: 'Compulsive behavior is a defining feature of disorders such as substance
@@ -77,14 +127,30 @@ description: 'Compulsive behavior is a defining feature of disorders such as sub
 ethicsApproval: []
 id: DANDI:000971/draft
 identifier: DANDI:000971
-keywords: []
+keywords:
+- dorsal striatum
+- dopamine
+- substantia nigra
+- reward learning
+- habit formation
+- compulsive behavior
+- punishment-resistant reward seeking
+- fiber photometry
+- optogenetics
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000971/versions/draft/assets/
 name: Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: https://doi.org/10.1016/j.cub.2022.01.055
+  name: Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
+  relation: dcite:IsDescribedBy
+  repository: Current Biology
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://www.cell.com/current-biology/fulltext/S0960-9822(22)00117-8?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982222001178%3Fshowall%3Dtrue
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
