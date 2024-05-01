@@ -24,9 +24,9 @@ assetsSummary:
   numberOfFiles: 0
   schemaKey: AssetsSummary
 citation: Seiler, Jillian L.; Cosme, Caitlin V.; Sherathiya, Venus N.; Schaid, Michael
-  D.; Bianco, Joseph, M.; Bridgemohan, Abigael S.; Lerner, Talia N.; Adkisson, Paul
-  (2024) Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000971/draft
+  D.; Bianco, Joseph, M.; Bridgemohan, Abigael S.; Lerner, Talia N. (2024) Dopamine
+  signaling in the dorsomedial striatum promotes compulsive behavior (Version draft)
+  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000971/draft
 contributor:
 - email: jillian.seiler@northwestern.edu
   identifier: 0000-0003-4430-4797
@@ -88,10 +88,43 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
   url: http://www.nih.gov/
+- identifier: https://ror.org/03a63f080
+  includeInCitation: false
+  name: Brain and Behavior Research Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R00MH109569-04S1
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Palissery, Gates
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: false
+  name: Van Camp, Louis
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: false
+  name: Sikora, Hayden
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: false
+  name: Holla, Meghana
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
 - affiliation: []
   email: paul.wesley.adkisson@gmail.com
   identifier: 0009-0005-8943-5450
-  includeInCitation: true
+  includeInCitation: false
   name: Adkisson, Paul
   roleName:
   - dcite:DataCurator
