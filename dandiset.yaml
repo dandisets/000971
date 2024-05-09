@@ -20,9 +20,32 @@ acknowledgement: We thank members of the Lerner Laboratory for helpful discussio
   to T.N.L., and an NIH Diversity Supplement (R00MH109569-04S1) to support C.V.C.
   Graphical abstract created with https://biorender.com/.
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: optogenetic approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 166330601
+  numberOfFiles: 10
+  numberOfSubjects: 20
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - OptogeneticSeries
+  - BehavioralEpochs
+  - ProcessingModule
 citation: Seiler, Jillian L.; Cosme, Caitlin V.; Sherathiya, Venus N.; Schaid, Michael
   D.; Bianco, Joseph, M.; Bridgemohan, Abigael S.; Lerner, Talia N. (2024) Dopamine
   signaling in the dorsomedial striatum promotes compulsive behavior (Version draft)
