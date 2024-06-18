@@ -30,22 +30,22 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 7715442221
-  numberOfFiles: 956
-  numberOfSubjects: 90
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 9727140281
+  numberOfFiles: 1556
+  numberOfSubjects: 126
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - BehavioralEpochs
   - ProcessingModule
   - OptogeneticSeries
+  - BehavioralEpochs
 citation: Seiler, Jillian L.; Cosme, Caitlin V.; Sherathiya, Venus N.; Schaid, Michael
   D.; Bianco, Joseph, M.; Bridgemohan, Abigael S.; Lerner, Talia N. (2024) Dopamine
   signaling in the dorsomedial striatum promotes compulsive behavior (Version draft)
