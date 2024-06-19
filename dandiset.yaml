@@ -34,8 +34,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 23404019497
-  numberOfFiles: 3796
+  numberOfBytes: 23403168585
+  numberOfFiles: 3792
   numberOfSubjects: 288
   schemaKey: AssetsSummary
   species:
@@ -47,7 +47,7 @@ assetsSummary:
   - BehavioralEpochs
   - OptogeneticSeries
 citation: Seiler, Jillian L.; Cosme, Caitlin V.; Sherathiya, Venus N.; Schaid, Michael
-  D.; Bianco, Joseph, M.; Bridgemohan, Abigael S.; Lerner, Talia N. (2024) Dopamine
+  D.; Bianco, Joseph M.; Bridgemohan, Abigael S.; Lerner, Talia N. (2024) Dopamine
   signaling in the dorsomedial striatum promotes compulsive behavior (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000971/draft
 contributor:
@@ -78,7 +78,7 @@ contributor:
   schemaKey: Person
 - identifier: 0000-0002-8598-0604
   includeInCitation: true
-  name: Bianco, Joseph, M.
+  name: Bianco, Joseph M.
   roleName:
   - dcite:Author
   schemaKey: Person
