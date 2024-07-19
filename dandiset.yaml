@@ -34,9 +34,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 23399339481
-  numberOfFiles: 3774
-  numberOfSubjects: 288
+  numberOfBytes: 23489763045
+  numberOfFiles: 4133
+  numberOfSubjects: 307
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -220,6 +220,11 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/catalystneuro/lerner-lab-to-nwb
+- name: Example Notebooks
+  relation: dcite:IsSupplementedBy
+  resourceType: dcite:ComputationalNotebook
+  schemaKey: Resource
+  url: https://github.com/dandi/example-notebooks
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
