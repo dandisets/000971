@@ -34,9 +34,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 23489763045
-  numberOfFiles: 4133
-  numberOfSubjects: 307
+  numberOfBytes: 23491138657
+  numberOfFiles: 4139
+  numberOfSubjects: 313
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -48,8 +48,8 @@ assetsSummary:
   - OptogeneticSeries
 citation: Seiler, Jillian L.; Cosme, Caitlin V.; Sherathiya, Venus N.; Schaid, Michael
   D.; Bianco, Joseph M.; Bridgemohan, Abigael S.; Lerner, Talia N. (2024) Dopamine
-  signaling in the dorsomedial striatum promotes compulsive behavior (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000971/draft
+  signaling in the dorsomedial striatum promotes compulsive behavior (Version 0.240802.2004)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000971/0.240802.2004
 contributor:
 - email: jillian.seiler@northwestern.edu
   identifier: 0000-0003-4430-4797
@@ -181,8 +181,9 @@ description: 'Compulsive behavior is a defining feature of disorders such as sub
   DMS dopamine signaling
 
   as a key controller of the development of compulsive reward seeking.'
+doi: 10.48324/dandi.000971/0.240802.2004
 ethicsApproval: []
-id: DANDI:000971/draft
+id: DANDI:000971/0.240802.2004
 identifier: DANDI:000971
 keywords:
 - dorsal striatum
@@ -197,7 +198,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000971/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000971/0.240802.2004/assets.yaml
 name: Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
 protocol: []
 publishedBy:
@@ -242,6 +243,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000971/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000971/0.240802.2004
+version: 0.240802.2004
 wasGeneratedBy: []
