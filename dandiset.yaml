@@ -153,6 +153,7 @@ contributor:
   - dcite:DataCurator
   schemaKey: Person
 dateCreated: '2024-04-27T01:45:05.960750+00:00'
+datePublished: '2024-08-02T20:04:03.933450+00:00'
 description: 'Compulsive behavior is a defining feature of disorders such as substance
   use disorders. Current evidence
 
@@ -199,6 +200,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000971/versions/draft/assets/
 name: Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
 protocol: []
+publishedBy:
+  endDate: '2024-08-02T20:04:03.933450+00:00'
+  id: urn:uuid:d821cbe6-624d-43fc-8de5-24d8eeb9c528
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-08-02T20:04:03.933450+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:804d5879-b510-4156-aacc-4ba6536a5efd
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1016/j.cub.2022.01.055
   name: Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
