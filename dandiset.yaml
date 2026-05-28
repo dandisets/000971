@@ -10,6 +10,18 @@ about:
 - identifier: http://snomed.info/id/11061003
   name: Psychoactive substance use disorder
   schemaKey: Disorder
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002038
+  name: Substantia nigra
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/CL_4042025
+  name: substantia nigra dopaminergic neuron
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/HP_0000722
+  name: Compulsive behaviors
+  schemaKey: Disorder
+- identifier: http://purl.obolibrary.org/obo/NCIT_C3479
+  name: Addiction
+  schemaKey: Disorder
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -149,13 +161,6 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- awardNumber: R00MH109569-04S1
-  identifier: https://ror.org/01cwqze88
-  includeInCitation: false
-  name: National Institutes of Health
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
 - includeInCitation: false
   name: Palissery, Gates
   roleName:
@@ -176,11 +181,14 @@ contributor:
   roleName:
   - dcite:DataCollector
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/01d74sk53
+    name: CatalystNeuro
+    schemaKey: Affiliation
   email: paul.wesley.adkisson@gmail.com
   identifier: 0009-0005-8943-5450
   includeInCitation: false
-  name: Adkisson, Paul
+  name: Adkisson-Floro, Paul
   roleName:
   - dcite:DataCurator
   schemaKey: Person
