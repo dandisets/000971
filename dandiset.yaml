@@ -122,6 +122,7 @@ contributor:
   - identifier: https://ror.org/000e0be47
     name: Northwestern University
     schemaKey: Affiliation
+  identifier: 0009-0000-4240-4570
   includeInCitation: true
   name: Bridgemohan, Abigael S.
   roleName:
@@ -231,7 +232,6 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000971/versions/draft/assets/
 name: Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
-protocol: []
 relatedResource:
 - identifier: https://doi.org/10.1016/j.cub.2022.01.055
   name: Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
