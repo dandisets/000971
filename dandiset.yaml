@@ -61,8 +61,8 @@ assetsSummary:
   - OptogeneticSeries
 citation: Seiler, Jillian L.; Cosme, Caitlin V.; Sherathiya, Venus N.; Schaid, Michael
   D.; Bianco, Joseph M.; Bridgemohan, Abigael S.; Lerner, Talia N. (2026) Dopamine
-  signaling in the dorsomedial striatum promotes compulsive behavior (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000971/draft
+  signaling in the dorsomedial striatum promotes compulsive behavior (Version 0.261013.1707)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000971/0.261013.1707
 contributor:
 - affiliation:
   - identifier: https://ror.org/000e0be47
@@ -122,6 +122,7 @@ contributor:
   - identifier: https://ror.org/000e0be47
     name: Northwestern University
     schemaKey: Affiliation
+  identifier: 0009-0000-4240-4570
   includeInCitation: true
   name: Bridgemohan, Abigael S.
   roleName:
@@ -199,6 +200,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-04-27T01:45:05.960750+00:00'
+datePublished: '2026-10-13T17:07:11.923104+00:00'
 description: "Compulsive behavior is a defining feature of disorders such as substance
   use disorders. Current evidence\nsuggests that corticostriatal circuits control
   the expression of established compulsions, but little is known\nabout the mechanisms
@@ -213,8 +215,9 @@ description: "Compulsive behavior is a defining feature of disorders such as sub
   In contrast, amplifying DLS dopamine\nsignaling had no effect on the emergence of
   compulsions. These results establish DMS dopamine signaling\nas a key controller
   of the development of compulsive reward seeking."
+doi: 10.48324/dandi.000971/0.261013.1707
 ethicsApproval: []
-id: DANDI:000971/draft
+id: DANDI:000971/0.261013.1707
 identifier: DANDI:000971
 keywords:
 - dorsal striatum
@@ -229,9 +232,20 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000971/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000971/0.261013.1707/assets.yaml
 name: Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
-protocol: []
+publishedBy:
+  endDate: '2026-10-13T17:07:11.923104+00:00'
+  id: urn:uuid:8a8a932a-6870-4752-ad05-d3678ea1cbd8
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-13T17:07:11.923104+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:169db2b5-9be0-477f-bddb-a7d8592d2672
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1016/j.cub.2022.01.055
   name: Dopamine signaling in the dorsomedial striatum promotes compulsive behavior
@@ -259,6 +273,7 @@ relatedResource:
   resourceType: dcite:ComputationalNotebook
   schemaKey: Resource
   url: https://github.com/dandi/example-notebooks
+releaseNotes: Updated metadata to include the ORCID for Abigael Bridgemohan
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
@@ -273,6 +288,6 @@ studyTarget:
   probes), and optogenetic stimulation data in Mus musculus for reuse and reanalysis
 - Characterize individual variability in punishment‑resistant phenotypes (PR, DPR,
   PS)
-url: https://dandiarchive.org/dandiset/000971/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000971/0.261013.1707
+version: 0.261013.1707
 wasGeneratedBy: []
